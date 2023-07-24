@@ -1,0 +1,26 @@
+<JavaCardProject name="TGP_System">
+<USER>
+<PKG name="TGP_Server" aid="00 20 20 47 57" major="1" minor="0">
+<APPLET aid="00 20 20 47 57 01" instanceaid="" parameter="" authority="" privileges="" index="-30680" name="TGP"/>
+</PKG>
+<PKG name="Service" aid="01 20 20 47 57" major="1" minor="0">
+<APPLET aid="01 20 20 47 57 01" instanceaid="" parameter="" authority="" privileges="" index="-32200" name="Send_Data"/>
+<APPLET aid="01 20 20 47 57 02" instanceaid="" parameter="" authority="" privileges="" index="31536" name="Crypto_Data"/>
+<APPLET aid="01 20 20 47 57 03" instanceaid="" parameter="" authority="" privileges="" index="-24576" name="GenRandom"/>
+<APPLET aid="01 20 20 47 57 04" instanceaid="" parameter="" authority="" privileges="" index="30096" name="RSA_Signature"/>
+</PKG>
+<PKG name="IAC_System_Sender" aid="20 20 20 47 57" major="1" minor="0">
+<APPLET aid="20 20 20 47 57 01" instanceaid="" parameter="" authority="" privileges="" index="-29936" name="Sender"/>
+</PKG>
+<PKG name="IAC_System_Receiver" aid="30 20 20 47 57" major="1" minor="0">
+<APPLET aid="30 20 20 47 57 01" instanceaid="" parameter="" authority="" privileges="" index="-32576" name="Receiver"/>
+</PKG>
+<PKG name="Servers" aid="40 20 20 47 57" major="1" minor="0">
+<APPLET aid="40 20 20 47 57 01" instanceaid="" parameter="" authority="" privileges="" index="-8112" name="Server_S1"/>
+</PKG>
+<Libs/>
+</USER>
+<DebugInfo>
+<Protocol name="T01"/>
+</DebugInfo>
+</JavaCardProject>

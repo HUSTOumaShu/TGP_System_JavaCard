@@ -1,0 +1,25 @@
+<JavaCardProject name="TGP_System">
+<USER>
+<PKG name="TGP_Server" aid="00 20 20 47 57" major="1" minor="0">
+<APPLET aid="00 20 20 47 57 01" instanceaid="" parameter="" authority="" privileges="" index="-30920" name="TGP"/>
+<CLASS name="SharedKey"/>
+</PKG>
+<PKG name="Service" aid="01 20 20 47 57" major="1" minor="0">
+<APPLET aid="01 20 20 47 57 01" instanceaid="" parameter="" authority="" privileges="" index="-32440" name="Send_Data"/>
+<APPLET aid="01 20 20 47 57 02" instanceaid="" parameter="" authority="" privileges="" index="30576" name="Crypto_Data"/>
+<APPLET aid="01 20 20 47 57 03" instanceaid="" parameter="" authority="" privileges="" index="-22296" name="GenRandom"/>
+<APPLET aid="01 20 20 47 57 04" instanceaid="" parameter="" authority="" privileges="" index="29616" name="RSA_Signature"/>
+</PKG>
+<PKG name="IAC_System_Sender" aid="20 20 20 47 57" major="1" minor="0">
+<APPLET aid="20 20 20 47 57 01" instanceaid="" parameter="" authority="" privileges="" index="-30296" name="Sender"/>
+<CLASS name="SharedInterface"/>
+</PKG>
+<PKG name="IAC_System_Receiver" aid="30 20 20 47 57" major="1" minor="0">
+<APPLET aid="30 20 20 47 57 01" instanceaid="" parameter="" authority="" privileges="" index="-31136" name="Receiver"/>
+</PKG>
+<PKG name="Servers" aid="40 20 20 47 57" major="1" minor="0">
+<APPLET aid="40 20 20 47 57 01" instanceaid="" parameter="" authority="" privileges="" index="4968" name="Server_S1"/>
+</PKG>
+<Libs/>
+</USER>
+</JavaCardProject>
